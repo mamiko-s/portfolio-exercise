@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 300px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        row-gap: 20px;
+    }
+
+    .skills aside {
+        width: 20vh;
+
+    }
+
+    .skills h4 {
+        text-align: center;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education h2 {
+        border-bottom: 2px solid teal;
+    }
+
+    .education article {
+        width: 70%;
+    }
+
+    .education [alt="Tokyo University"] {
+        padding: 3%;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects h2 {
+        border-bottom: 2px solid teal;
+    }
+
+    .projects>article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact h2 {
+        border-bottom: 2px solid teal;
+    }
+
+    .contact form {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .contact div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact input,
+    .contact textarea {
+        border: 1px solid gainsboro;
+        padding: 3%;
+
+    }
+
+    .contact textarea {
+        height: 30vh;
+        font-size: 20px;
+    }
+
+    .contact [type="submit"] {
+        background-color: teal;
+        color: white;
+        font-size: 18px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    footer>div {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
