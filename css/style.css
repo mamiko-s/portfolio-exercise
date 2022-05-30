@@ -16,6 +16,8 @@ html {
         row-gap: 40px;
     }
 
+
+
     .skills {
         display: flex;
         flex-direction: column;
